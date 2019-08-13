@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Crystal Collector</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+    <script type="text/javascript" src="javascript/game.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <document src="javascript/game.js">
+    </document>
+    <style>
+      body 
+      {
+        background-image: url("images/mountain.jpg");
+        background-size: 100%;
+      }
+      </style>
+   
+</head>
+
+    <div class="header">
+  
+        <h1>Crystal Collector</h1>
+    
+    
+    </div>
+        
+    <div class="instructions">
+
+        <h2>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The volume of each crystal is hidden from you until you cick on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+       </h2>
+    </div>
+
+    <div>
+
+    <h1>Random Number:</h1>
+    <div class="randomNumber"></div>
+    
+    <h1>Wins:</h1>
+    <div class="wins"></div>
+      
+    <h1>Losses:</h1>
+    <div class="losses"></div>
+       
+     
+    <div class="gems">
+
+        <img src="images/blue.png" width="100" height="100" class=gemImage id="one" alt="gemOne">
+        <img src="images/orange.png" width="100" height="100" class=gemImage id="two" alt="gemTwo">
+        <img src="images/purple.png" width="125" height="125"  class=gemImage id="three" alt="gemThree">
+        <img src="images/red.png" width="100" height="100"  class=gemImage id="four" alt="gemFour">
+
+      </div>
+    
+
+    <h1>Your total score is:</h1>
+      <div class="total"></div>
+      
+    </div> 
+
+</body>
+</html>
